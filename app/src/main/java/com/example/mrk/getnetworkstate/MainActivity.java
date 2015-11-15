@@ -202,7 +202,7 @@ public class MainActivity extends AppCompatActivity {
 
 //                Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
 
-        return true;//
+        return true;
     }
 
     private void downloadImageBySocket(String urlStr) {
