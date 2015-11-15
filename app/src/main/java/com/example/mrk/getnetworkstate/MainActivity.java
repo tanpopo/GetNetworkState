@@ -200,10 +200,9 @@ public class MainActivity extends AppCompatActivity {
         Log.i(tag, msg);
         logArea.append(msg);
 
-                Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
+//                Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
 
-
-        return true;
+        return true;//
     }
 
     private void downloadImageBySocket(String urlStr) {
